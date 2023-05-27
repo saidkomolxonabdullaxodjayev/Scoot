@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -50,7 +51,65 @@ height: 96px;
 }
 /* ====================================================== */
 .header__second-box{
+    
     width: 1440px;
-height: 650px;
-background-image: url(../Img/Bitmap\ \(1\).svg);
+    height: 650px;
+    background-image: url(../Img/Bitmap\ \(1\).svg);
+}
+.header__second-box-title{
+    position: absolute;
+    left: 180px;
+    top: 300px;
+    width: 500px;
+    height: 112px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+.header__second-box-text{
+    position: absolute;
+    left: 250px;
+    top: 420px;
+    width: 405px;
+    height: 100px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.header__second-box-btn{
+    position: absolute;
+    left: 250px;
+    top: 540px;
+    width: 180px;
+    height: 53px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FCB72B;
+    border: none;
+}
+.header__second-box-img{
+    position: absolute;
+    left: 680px;
+    top: 470px;
+}
+.header__second-box-second-img{
+    position: absolute;
+    top: 470px;
+}
+.header__second-box-third-img{
+    position: absolute;
+    left:1270px;
+    top: 550px;
 }
